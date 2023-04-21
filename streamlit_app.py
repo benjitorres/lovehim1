@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 #load_dotenv()
 #openai.api_key = os.getenv("OPENAI_API_KEY")
 
-openai.api_key = st.secrets["api_key"]
+openai.api_key = st.secrets["openai"]["api_key"]
 
 # Define the function to generate a Bible verse based on a topic
 def generate_verse(topic):
