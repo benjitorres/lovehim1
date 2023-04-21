@@ -1,0 +1,7 @@
+name: lovehim
+version: 0.1
+description: Generate Bible verses based on a topic and reference
+scripts:
+  get_verse: ./get_verse.sh
+dependencies:
+  - openai
